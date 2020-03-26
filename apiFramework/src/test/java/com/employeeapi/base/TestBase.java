@@ -20,8 +20,8 @@ public class TestBase {
 	@BeforeClass
 	public void setup()
 	{
-		logger=Logger.getLogger("EmployeesRestAPI");
-		PropertyConfigurator.configure("Log4j.properties");//added logger
+		logger=Logger.getLogger("employeeapi");
+		PropertyConfigurator.configure("log4j.properties");//added logger
 		logger.setLevel(Level.DEBUG);
 	}
 	
