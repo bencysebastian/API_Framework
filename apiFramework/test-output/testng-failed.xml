@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssured Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.employeeapi.utiliyies.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="RestAssured Test Suite Test cases(failed)">
+    <classes>
+      <class name="com.employeeapi.tests.Delete_Record">
+        <methods>
+          <include name="checkresponsebody"/>
+          <include name="setup"/>
+          <include name="deleteEmployee"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.employeeapi.tests.Delete_Record -->
+    </classes>
+  </test> <!-- RestAssured Test Suite Test cases(failed) -->
+</suite> <!-- Failed suite [RestAssured Test Suite] -->

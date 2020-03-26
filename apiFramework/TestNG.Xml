@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured Test Suite">
+<listeners>
+<listener class-name ="com.employeeapi.utiliyies.ExtentReporterNG"/>
+</listeners> 
+
+  <test thread-count="5" name="RestAssured Test Suite Test cases">
+
+    <classes>
+      <class name="com.employeeapi.tests.Delete_Record"></class>
+     <class name="com.employeeapi.tests.GetAllEmployees"></class>
+     
+    
+    </classes>
+  </test> 
+</suite> 
